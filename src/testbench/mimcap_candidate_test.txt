@@ -1,0 +1,2 @@
+Test Pav_mW Vout_avg_V Ripple_Vpp Pin_abs_uW Pdc_uW Pin_over_Pav Pdc_over_Pin Pdc_over_Pav Vin_diff_max_V Vin_diff_min_V
+MIM_CAP 5 0.495935 0.0090225 273.941 81.9873 0.0547883 0.299288 0.0163975 1.37033 -1.37033
