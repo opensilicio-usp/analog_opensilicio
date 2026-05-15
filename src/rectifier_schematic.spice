@@ -1,0 +1,13 @@
+** sch_path: /foss/designs/analog_opensilicio/src/rectifier_schematic.sch
+.subckt rectifier_schematic
+XM4 in_n in_p out out sky130_fd_pr__pfet_01v8_lvt L=0.35 W=32 nf=8 ad=4.64 as=5.8 pd=34.32 ps=42.9 nrd=0.0090625 nrs=0.0090625
++ sa=0 sb=0 sd=0 mult=1
+XM2 in_p in_n out out sky130_fd_pr__pfet_01v8_lvt L=0.35 W=32 nf=8 ad=4.64 as=5.8 pd=34.32 ps=42.9 nrd=0.0090625 nrs=0.0090625
++ sa=0 sb=0 sd=0 mult=1
+XM6 in_p in_n gnd gnd sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM1 in_n in_p gnd gnd sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XC3 out gnd sky130_fd_pr__cap_mim_m3_2 W=32 L=32 MF=1
+.ends
+.end
