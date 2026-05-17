@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>SKY130 DRC runset</description>
- <original-file>/foss/designs/analog_opensilicio/src/rectifier_layout_started.gds</original-file>
+ <original-file>/foss/designs/analog_opensilicio/src/rectifier_layout_finished.gds</original-file>
  <generator>drc: script='/foss/pdks/sky130A/libs.tech/klayout/macros/run_drc_full.lydrc'</generator>
  <top-cell>tt_um_template</top-cell>
  <tags>
