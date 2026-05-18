@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_5g_rectifier
+MACRO tt_um_opensilicio_5g_rectifier
   CLASS BLOCK ;
-  FOREIGN tt_um_5g_rectifier ;
+  FOREIGN tt_um_opensilicio_5g_rectifier ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
@@ -634,6 +634,6 @@ MACRO tt_um_5g_rectifier
         RECT 132.490 1.000 133.390 3.280 ;
         RECT 151.810 1.000 152.710 21.210 ;
   END
-END tt_um_5g_rectifier
+END tt_um_opensilicio_5g_rectifier
 END LIBRARY
 

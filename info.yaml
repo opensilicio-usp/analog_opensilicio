@@ -7,7 +7,7 @@ project:
   tiles: "1x2"
   analog_pins: 3
   uses_3v3: false
-  top_module: "tt_um_5g_rectifier"
+  top_module: "tt_um_opensilicio_5g_rectifier"
   source_files:
     - "project.v"
 
